@@ -7,16 +7,24 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "bugsnag:create-build": "bugsnag-cli create-build",
+    "bugsnag:upload-android": "bugsnag-cli upload react-native-android"
   },
   "dependencies": {
+    "@bugsnag/react-native": "^7.22.3",
+    "@bugsnag/react-native-performance": "^2.1.0",
+    "@react-native-community/netinfo": "^11.2.1",
     "react": "18.2.0",
-    "react-native": "0.73.2"
+    "react-native": "0.73.2",
+    "react-native-file-access": "^3.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
+    "@bugsnag/cli": "^2.0.0",
+    "@bugsnag/source-maps": "^2.3.1",
     "@react-native/babel-preset": "0.73.19",
     "@react-native/eslint-config": "0.73.2",
     "@react-native/metro-config": "0.73.3",
