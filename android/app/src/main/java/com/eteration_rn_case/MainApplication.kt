@@ -1,6 +1,7 @@
 package com.eteration_rn_case
 
 import com.bugsnag.android.Bugsnag;
+import android.os.Bundle;
 import android.app.Application
 import com.facebook.react.PackageList
 import com.facebook.react.ReactApplication
